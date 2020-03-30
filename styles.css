@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #0078D5;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #7F858A;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/trees.jpg') no-repeat top center ;
+  background: url('images/prep.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,17 +67,18 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  max-width: 100%;
-  height: 150px;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .3s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #7F858A;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -95,10 +96,35 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
+  transition: all .7s;
 }
 .card:hover {
   border-color: #0078D5;
+}
+
+.photo_card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .7s;
+}
+
+#card_photo{
+  text-align: center;
+}
+
+.photo_img {
+  max-width: 75%;
+  padding: 10px;
+}
+
+.button {
+  background-color: #7F858A;
+  font-size: 20px;
+  border-radius: 10px;
 }
 
 ul.skills {
